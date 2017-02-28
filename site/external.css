@@ -1,0 +1,124 @@
+body {
+	background-image: url("northern.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 1600px 100px;
+}
+
+body > h1 {
+    color: black;
+    text-transform: uppercase;
+}
+
+body h2 {
+	background-image: url("sulan.png");
+	color: white;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+body h3 {
+	background-image: url("sulan.png");
+	color: blue;
+	font-size: 18px;
+	text-align: left;
+}
+
+body > h3 > div {
+	font-weight: bold;
+	color: blue;
+}
+body > h4 > div {
+	font-weight: bold;
+	color: black
+}
+body > h4 > ul> li:nth-child(odd) {
+}
+h3 > ul > li {
+
+}
+body>h5 {
+	background-image: url("sulan.png")
+}
+body>h5>a {
+	display: block;
+}
+body>h5>a:hover{
+	color: blue;
+}
+#top {
+	color: blue;
+	font-size: 24px;
+}
+
+body>h5>ul>li:nth-child(1)> a:hover {
+	color: LawnGreen;
+	display:block;
+    -webkit-animation: mymove1 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove1 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove1 {
+    50% {box-shadow: 10px 20px 30px LawnGreen;}
+}
+
+/* Standard syntax */
+@keyframes mymove1 {
+    50% {box-shadow: 10px 20px 30px LawnGreen;}
+}
+
+
+body>h5>ul>li:nth-child(2) > a:hover, a:active {
+	display:block;
+	color: maroon;
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {box-shadow: 10px 20px 30px maroon;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px maroon;}
+}
+
+
+body>h5>ul>li:nth-child(3) > a:hover, a:active {
+	display:block;
+	color: red;
+	-webkit-animation: mymove2 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove2 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove2 {
+    50% {box-shadow: 10px 20px 30px red;}
+}
+
+/* Standard syntax */
+@keyframes mymove2 {
+    50% {box-shadow: 10px 20px 30px red;}
+}
+
+body>h5>ul>li:nth-child(4) > a:hover, a:active {
+	display:block;	
+	color: yellow;
+	-webkit-animation: mymove3 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove3 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove3 {
+    50% {box-shadow: 10px 20px 30px yellow;}
+}
+
+/* Standard syntax */
+@keyframes mymove3 {
+    50% {box-shadow: 10px 20px 30px yellow;}
+}
+
+}
